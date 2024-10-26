@@ -1,0 +1,26 @@
+Prerequisites and Installation Guide for the Library: ->  pip install onvif-zeep opencv-python
+
+if needed: -> sudo apt install python3
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+how it works:
+This program scans ONVIF cameras within the network across all the defined ranges in the system and saves the results as a list in a JSON file.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+How to Run the returnRTSP.py Program:
+To run this program and retrieve the RTSP link from the camera, you should execute it as follows
+
+python returnRTSP.py [IP] [Username] [Password]
+
+Replace:
+
+    [IP] with the camera’s IP address
+    [Username] with the camera’s username
+    [Password] with the camera’s password
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+power by: zz6
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
